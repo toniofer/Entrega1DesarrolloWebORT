@@ -1,0 +1,601 @@
+/* RESETEO CSS */
+
+*{ margin: 0; 
+  padding: 0;
+  border: 0
+}
+
+
+/********************      BODY    *************************/
+
+body{
+  background-color: rgb(3, 3, 53);
+  font-family: 'Nunito Sans', sans-serif; 
+}
+
+
+/**************    HEADER  **************************/
+
+
+header{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+header a{
+  cursor: pointer;
+}
+
+#logo{
+height: 100px;
+width: auto;
+margin-left: 10px;
+float: left;
+}
+
+header nav{  
+  height:  50px;  
+  margin: 25px 0 0 200px;
+  float: left;
+}
+
+header nav ul{
+  list-style-type: none;
+  text-align: center; 
+  height: 50px;
+}
+
+header nav ul li{  
+  display: inline-block;
+  width: 200px; 
+}
+
+header nav li a{
+  text-decoration: none;
+  display: block;
+  padding: 16px 16px;
+  color: white; 
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 4px;
+  border: 1px rgba(0, 0, 255, 0) solid;
+}
+
+nav li a:hover{
+font-weight: bolder;
+background-color: rgba(200, 200, 254, 0.4);
+letter-spacing: 3px;
+}
+
+
+
+
+
+/*******************     MAIN     ********************************/
+
+main{      
+  width: 1280px;
+  margin: 0 auto;  
+  color: white;     
+}
+
+h1{
+  letter-spacing: 16px;
+  font-size: 36px;  
+  padding: 50px 20px 0 20px;
+}
+
+h2{
+  letter-spacing: 8px;
+  font-size: 20px;
+  padding: 5px 0 5px 0;
+  font-weight: bolder;  
+}
+
+h3{
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;  
+}
+
+
+
+/************   INDEX *********************/
+
+ 
+#imagenIndex{
+  background-image: url("../img/portada0.jpg");
+  min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/**************************    RESENIA    *******************************/
+
+#resenia{
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#resenia h1{  
+  grid-column: 1/4; 
+  padding: 50px 20px 0 20px;
+}
+
+#resenia article{  
+
+  text-align: justify;
+  padding: 20px;
+  
+}
+
+#resenia article p{
+  margin-bottom: 10px;
+}
+
+#resenia img{
+  width: 100%;
+}
+
+#resenia figure{
+  text-align: center;
+  padding: 20px; 
+}
+
+#resenia aside{
+  padding: 20px;  
+}
+
+#resenia ul{
+  list-style-type: disc;
+  margin: 20px;
+}
+
+#resenia aside strong{
+  letter-spacing: 2px;
+}
+
+#resenia aside p{
+  letter-spacing: 1px;
+}
+
+#resenia li{
+  list-style-image: url("../img/escudo.png");
+  padding-bottom: 6px;
+}
+
+/*****************   CAPITULOS   ****************/
+
+
+#capitulos{
+  margin: 0 auto;
+  width: 1200px;  
+  display: grid;  
+  grid-template-columns: 550px 1fr 1fr 1fr; 
+}
+
+#capitulos h1{
+  grid-column: 1/5;
+}
+
+
+#capitulos article{  
+  padding: 20px 20px 60px 20px; 
+  position: relative;  
+}
+
+#capitulos img{
+  width: 100%;
+}
+
+#capitulos p{  
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#capitulos h2{
+  padding-bottom: 0
+}
+
+#capitulos h3{
+  padding-bottom: 5px;
+}
+
+
+#capitulos a{  
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: inline-block;
+  background-color: whitesmoke;
+  padding: 5px 25px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #030333; 
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+
+
+#cap1{
+  grid-row: 2/4;
+  margin-right: 40px;
+}
+
+#cap1 h2{
+  display: inline-block;
+}
+
+#cap1 h3{
+  display: inline-block;
+}
+
+#cap1 a{
+  position: relative;
+  margin: 35px 0 0 0;
+  left: 0px;
+}
+
+#cap1 p{  
+  font-weight: 200px;
+  font-size: 15px;
+}
+
+
+
+/****************    OPINIONES     ****************/
+
+
+#opiniones{
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#opiniones h1{
+  grid-column: 1/3;
+}
+
+#opiniones article{
+  padding: 5px; 
+}
+
+#opiniones figure{
+  width: 75px;  
+  float: left;
+  margin: 10px; 
+}
+
+#opiniones article article{
+  float: left;
+  margin: 15px 0px 10px 10px;
+  width: 75%;
+}
+
+#opiniones img{
+  width: 100%;
+  border-radius: 50px;  
+}
+
+#opiniones p{  
+  margin: 0px 0 0 10px;   
+}
+
+#opiniones p strong{   
+  letter-spacing: 5px; 
+}
+
+#opiniones q{
+  display: inline-block;
+  margin: 0px 0 0 10px;
+}
+
+
+
+/**************    FOOTER       ****************/
+
+
+footer{
+  background-color: black;
+  height: 80px;
+  color: white;
+  display: flex;
+  margin-top: 20px;  
+}
+
+footer section{
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+
+footer p{
+  display: inline-block; 
+  text-align: center;
+  margin: 34px 0px 0 450px;  
+  width: 300px;
+  
+}
+
+footer nav{
+  display: inline-block;
+  margin: 24px 0 0 310px;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+
+footer li{
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-image: url("../img/sprite0.png");
+  border-radius: 50%;
+  margin-left: 4px;
+
+}
+
+#instagram{
+  background-position: 110px 155px;
+}
+
+#twitter{
+  background-position: 74px 155px;
+}
+
+#facebook{
+  background-position: 38px 155px;
+}
+
+#instagram:hover{
+  background-position: 110px 38px;
+  cursor: pointer;
+}
+
+#twitter:hover{
+  background-position: 74px 38px;
+  cursor: pointer;
+}
+
+#facebook:hover{
+  background-position: 38px 38px;
+  cursor: pointer;
+}
+
+
+
+/****************** DETALLE *********************/
+
+
+
+
+
+#imagenDetalle{
+  background-image: url("../img/capitulo2.jpg");
+  min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/*************** RESUMEN ***************************/
+
+
+#resumen{
+  margin: 50px auto 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* H1 */
+
+#resumen h1{  
+  grid-column: 1/4; 
+  margin-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+
+/* FIGURE */
+
+#resumen figure{
+  text-align: center;
+  padding: 6px 0 0 20px; 
+}
+
+#resumen img{
+  width: 100%;
+}
+
+/* ARTICLE */
+
+
+#resumen article{  
+  /*text-align: justify;*/
+  padding: 8px 30px 0px 30px;  
+}
+
+#resumen article img{
+  float: left;
+  clear: right;
+  width: 20px;
+ }
+
+#resumen article{
+  margin-bottom: 10px;   
+}
+
+#resumen article p{  
+  clear: none; 
+  display: inline-block;
+}
+
+#minutos{
+  float: left;
+  clear: right;
+  width: 80%;
+  margin: 0 0 10px 10px;
+  letter-spacing: 2px;
+}
+
+#director{
+  margin: 0 0 15px 32px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+
+/* TABLE */
+
+
+#resumen table{
+  height: 200px;
+  margin: 0 15px 0 0;
+}
+
+#resumen table caption{
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding-left: 5px;  
+}
+
+#resumen table{  
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+#resumen table td{
+  background-color: whitesmoke;
+  color: #030333;
+  border: 5px #030333 solid;  
+}
+
+.tdNum{
+  width: 32px;
+  text-align: center;
+}
+
+.tdNom{
+  padding-left: 10px;
+}
+
+.tdEsp{
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+/****************     GALERIA   ************************/
+
+
+#galeria{
+  margin: 50px auto 40px auto;
+  width: 1200px;
+}
+
+#galeria article{
+  margin:20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+#galeria h1{  
+  grid-column: 1/5;
+  padding: 50px 20px 10px 20px;
+}
+
+#galeria img{
+  width: 100%;
+}
+
+
+
+/****************     TU OPINION   ************************/
+
+#tuopinion{
+  margin: 0 auto 60px auto;
+  width: 1200px;
+}
+
+#tuopinion h1{
+  margin-bottom: 0px;
+}
+
+#tuopinion form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  text-align: center;
+  padding: 0px 20px 20px 20px; 
+}
+
+#tuopinion fieldset{  
+  text-align: left;
+}
+
+#tuopinion input{
+  display: block;
+  width: 100%;
+  height: 36px;  
+}
+
+#tuopinion input[type="submit"]{
+  width: 120px;
+  height: 26px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-weight: 550;
+  font-size: 12px;
+  display: block;
+  margin-left: 1040px;
+  grid-column: 1/3;
+  cursor: pointer;
+}
+
+#tuopinion select{
+  display: block;
+  width: 100%;
+  height: 36px;
+}
+
+#tuopinion label{
+  display: block;  
+  padding: 29px 5px 8px 5px;
+  font-weight: 500;
+}
+
+#tuopinion label[for="nombre"]{
+  padding-top: 12px;
+}
+
+#tuopinion label[for="mensaje"]{
+  padding-top: 12px;
+}
+#tuopinion textarea{
+  resize: none;
+  width: 555px;
+  height: 215px;
+  padding: 5px;  
+}
+
+
